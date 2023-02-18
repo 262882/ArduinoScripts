@@ -22,9 +22,9 @@ void loop() {
   // map it to voltage in l/min
   if (sensorVout>1) {
     flowValue = 2.685*pow(sensorVout, 2) - 4.225*sensorVout + 2.216; 
-    } else {
+  } else {
     flowValue=0;
-    }
+  }
   // print the results to the Serial Monitor:
   Serial.print("The flow rate in normal l/min = ");
   Serial.println(flowValue);
