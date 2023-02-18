@@ -1,3 +1,3 @@
 # myArduino
 
-A collection of arduino scripts
+A collection of arduino programs
